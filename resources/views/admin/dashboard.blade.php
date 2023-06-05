@@ -16,7 +16,14 @@
 								{{ session('status') }}
 							</div>
 						@endif
-
+							<ul>
+								<li>
+									<a href="{{route('admin.posts.index')}}">your works</a>
+								</li>
+								<li>
+									<a href="{{route('admin.posts.create')}}">your crete page</a>
+								</li>
+							</ul>
 						{{ __('You are logged in!') }}
 					</div>
 				</div>
