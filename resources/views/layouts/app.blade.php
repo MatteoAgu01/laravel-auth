@@ -48,6 +48,12 @@
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url('/') }}">{{ __('Home') }}</a>
 						</li>
+						<li>
+							<a class="text-capitalize nav-link" href="{{route('admin.posts.create')}}">create a new post</a>
+						</li>
+						<li>
+							<a class="text-capitalize nav-link" href="{{route('admin.posts.index')}}">all post</a>
+						</li>
 					</ul>
 
 					<!-- Right Side Of Navbar -->

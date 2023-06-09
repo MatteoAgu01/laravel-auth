@@ -21,7 +21,7 @@
 									<a href="{{route('admin.posts.index')}}">your works</a>
 								</li>
 								<li>
-									<a href="{{route('admin.posts.create')}}">your crete page</a>
+									<a href="{{route('admin.posts.create')}}">your create page</a>
 								</li>
 							</ul>
 						{{ __('You are logged in!') }}
